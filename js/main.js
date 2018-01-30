@@ -15,9 +15,9 @@ jQuery(document).ready(function($) {
 		thumbHeight:50,
 		thumbAmount:5,
 		
-		navigationType:"none",
-		navigationArrows:"solo",
-		navigationStyle:"preview1",
+		navigationType:"bullet",
+		navigationArrows:"nexttobullets",
+		navigationStyle:"square-old",
 		
 		touchenabled:"on",
 		onHoverStop:"on",
@@ -76,11 +76,6 @@ jQuery(document).ready(function($) {
 	});
    
 	
-	
-
-	
-   
-  
     //SMOOTH SCROLL EFFECT
     $('[data-toggle="elementscroll"]').on("click", function(){
     	
